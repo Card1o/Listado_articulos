@@ -70,3 +70,68 @@ ul {
         color: #666;
         font-size: 0.9em;
     }
+
+    .content ul .contenedor_texto{
+        transform:translatex(230px) translatey(-195px);
+       }
+
+       @media (max-width: 1024px) {
+        .title {
+            width: 90%;
+            margin: 0 auto;
+        }
+    
+        .contenedor_img {
+            width: 100%;
+        }
+    
+        .contenedor_texto {
+            width: 100%;
+            margin-top: 10px;
+        }
+    
+        .content ul .contenedor_texto {
+            transform:translatex(230px) translatey(-195px);
+        }
+    
+        ul {
+            margin-left: 0;
+            padding: 0;
+        }
+    
+        li {
+            margin-bottom: 15px;
+        }
+    
+        li div {
+            padding: 15px;
+        }
+    }
+    
+    @media (max-width: 640px) {
+        h1 {
+            font-size: 1.5em;
+        }
+    
+        h3 {
+            font-size: 1.2em;
+        }
+    
+        p {
+            font-size: 0.8em;
+        }
+    
+        img {
+            width: 100%;
+        }
+    }
+
+    @media (min-width:1025px){
+
+        /* Contenedor texto */
+        .content ul .contenedor_texto{
+         width:430px;
+        }
+        
+       }
+    
